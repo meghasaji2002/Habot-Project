@@ -1,0 +1,50 @@
+.section-ready-to-dive {
+    padding: 102px 0;
+}
+
+.title-ready-to-dive {
+    font-size: 37.34px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    margin-bottom: 30px;
+}
+
+.para {
+    font-size: 17.16px;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+}
+
+.signup-btn {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    padding: 13px 53px;
+    background: rgba(0, 115, 47, 1);
+    border: 1px solid rgba(0, 115, 47, 1);
+    border-radius: 5px;
+    color: rgba(209, 213, 219, 1);
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-arrow {
+    width: 32px;
+    height: 16.08px;
+    margin-left: 35px;
+}
+
+.location-box {
+    border: 1px solid rgba(231, 118, 13, 1);
+    border-radius: 5px;
+    font-size: 18.75px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 0;
+}

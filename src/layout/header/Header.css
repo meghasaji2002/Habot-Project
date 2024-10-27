@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+}
+
+.logo {
+    width: 181px;
+    height: 43px;
+    object-fit: cover;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.find-suppliers-link a {
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 400px;
+    font-size: 15.25px;
+    color: rgba(109, 110, 113, 1);
+}
+
+.service-tags-dropdown {
+    color: rgba(109, 110, 113, 1);
+}
+
+.service-tags-dropdown .custom-dropdown {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgba(109, 110, 113, 1);
+}
+
+.service-tags-dropdown .custom-dropdown:hover {
+    color: rgba(109, 110, 113, 1);
+}
+
+.custom-dropdown::after {
+    content: "";
+    color: rgba(109, 110, 113, 1);
+}
+
+.service-tags-dropdown .custom-dropdown.show {
+    color: rgba(109, 110, 113, 1);
+}
+
+.login-signup-btn {
+    padding: 13px 44px;
+    border: 1px solid rgba(0, 115, 47, 1);
+    border-radius: 5px;
+    color: rgba(0, 115, 47, 1);
+    font-size: 15px;
+    font-weight: 700px;
+    font-family: "Inter", sans-serif;
+    background: white;
+}

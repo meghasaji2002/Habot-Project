@@ -1,0 +1,102 @@
+.footer {
+    background: rgba(18, 53, 87, 1);
+    padding: 40px 0;
+}
+
+.footer-content-wrapper {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 0 20px 26px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 206px;
+    height: 40.15px;
+}
+
+.copyright-text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 25px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: start;
+}
+
+.company-terms-related {
+    display: flex;
+    align-items: start;
+}
+
+.company-terms-related-column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.company-terms-related-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15.13px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 15px;
+}
+
+.company-terms-related-column ul {
+    padding-left: 0 !important;
+}
+
+.company-terms-related-column li {
+    list-style: none;
+}
+
+.company-terms-related-column a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Arimo", sans-serif;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.social-media-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.social-media-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-icon-link img {
+    width: 18px;
+    height: 18px;
+}

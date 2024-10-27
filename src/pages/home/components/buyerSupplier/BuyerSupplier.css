@@ -1,0 +1,63 @@
+.blue-background {
+    background: rgba(7, 47, 87, 1);
+    padding: 115px 75px;
+}
+
+.buyer-supplier-left {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyer-supplier-content {
+    padding: 0 20px;
+}
+
+.buyer-supplier-content ul {
+    padding-left: 0 !important;
+}
+
+.buyer-supplier-content img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.buyer-supplier-content li {
+    list-style: none;
+}
+
+.listed-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18.75px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    line-height: 39px;
+}
+
+.buyer-supplier-content .nav-tabs {
+    border-bottom: none;
+}
+
+.buyer-supplier-content .tab-content {
+    margin-top: 35px;
+}
+
+.buyer-supplier-content .nav-item .nav-link {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    border: 0 solid transparent;
+    border-bottom-width: 2px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    line-height: 32px;
+    padding: 10px 62px;
+}
+
+.buyer-supplier-content .nav-item .nav-link.active {
+    background-color: transparent;
+    color: rgba(235, 113, 80, 1);
+    border-bottom-color: rgba(235, 113, 80, 1);
+}

@@ -1,0 +1,57 @@
+.how-it-works {
+    padding: 150px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works-title {
+    color: rgba(34, 34, 34, 1);
+    font-size: 37.34px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+
+.how-it-works-description {
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-size: 17.16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    width: 75%;
+}
+
+.working-steps-columns {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.steps-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 47px 47px;
+}
+
+.steps-column-icon img {
+    width: 74.35px;
+    height: 74.35px;
+}
+
+.steps-column-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    margin-top: 25px;
+}
+
+.steps-column:nth-child(odd) {
+    background: rgba(232, 251, 255, 1);
+}

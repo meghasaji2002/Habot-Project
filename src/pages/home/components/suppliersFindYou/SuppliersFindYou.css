@@ -1,0 +1,31 @@
+.suppliers-find-you {
+    background: rgba(232, 251, 255, 1);
+    padding: 107px 128px;
+    margin-top: 120px;
+}
+
+.suppliers-find-you-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.suppliers-find-you-title {
+    color: rgba(0, 0, 0, 1);
+    font-size: 37.34px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+.underlined-text {
+    border-bottom: 4px solid rgba(235, 113, 80, 1);
+}
+
+.get-verified {
+    width: 216px;
+    height: 54px;
+    background-color: rgba(235, 113, 80, 1);
+    border-radius: 5px;
+    color: rgba(232, 251, 255, 1);
+    border-color: transparent;
+}
