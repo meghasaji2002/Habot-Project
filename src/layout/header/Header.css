@@ -42,7 +42,6 @@
 }
 
 .custom-dropdown::after {
-    content: "";
     color: rgba(109, 110, 113, 1);
 }
 

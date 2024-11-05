@@ -24,7 +24,6 @@ function ReadyToDive() {
                   {data}
                 </div>
               </div>))}
-              <div className='col-6'></div>
             </div>
           </div>
         </div>
